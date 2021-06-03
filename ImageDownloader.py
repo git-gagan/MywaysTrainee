@@ -46,9 +46,3 @@ if __name__ == "__main__":
     get_images(number, user_search)
     print("Thanks for using, your images have been downloaded!")
 
-        
-
-
-
-
-
