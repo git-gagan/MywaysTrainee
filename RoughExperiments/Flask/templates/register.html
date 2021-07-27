@@ -1,0 +1,16 @@
+{% extends "Base.html" %}
+{% block title %}REGISTRATION{% endblock %}
+
+{% block content %}
+    <center><img src = "{{ url_for('static', filename = 'r.png') }}"/></center>
+    <b>Registration Form</b>
+    <form action="/confirmation" method="post">
+        <label>Name : <input type="text" name="Name"/></label>
+        <br/>
+        <label>City : <input type="text" name="City"/></label>
+        <br/>
+        <label>Number : <input type="tel" name="Pnum"/></label>
+        <button value="Submit">Submit</button>
+    </form>
+{% endblock %}
+    

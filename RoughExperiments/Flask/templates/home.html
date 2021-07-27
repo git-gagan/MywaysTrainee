@@ -1,0 +1,13 @@
+<!--
+    Inheritance using jinja templates
+    Helps in eliminating redundancy
+-->
+{% extends "Base.html" %}
+
+{% block title %} HOMEPAGE {% endblock %}
+
+{% block content %}
+<h2>Welcome to the Home page</h2>
+<h4>You are new to FLASK!</h4>
+<a href="/Registration">Go to registration form</a>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "Base.html" %}
+{% block title %} CONFIRMATION {% endblock %}
+{% block content %}
+    <img src="{{image}}"/>
+    Data Submitted as follows:
+    <table>
+        <tr>
+            <td>Name</td><td>{{name}}</td>
+        </tr>
+        <tr>
+            <td>City</td><td>{{city}}</td>
+        </tr>
+        <tr>
+            <td>Number</td><td>{{num}}</td>
+        </tr>
+    </table>
+{% endblock %}
+    
